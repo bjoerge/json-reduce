@@ -1,0 +1,10 @@
+# Compiled javascript
+dist
+
+# Logs
+logs
+*.log
+
+node_modules
+.DS_Store
+.idea

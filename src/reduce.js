@@ -8,7 +8,7 @@ function isObject(value) {
   return value !== null && typeof value === 'object'
 }
 
-export function reducePrimitive<Value: Primitive, Accumulator>(
+function reducePrimitive<Value: Primitive, Accumulator>(
   value: Value,
   reducer: Reducer<Value, Accumulator>,
   accumulator: Accumulator,

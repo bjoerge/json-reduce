@@ -4,7 +4,7 @@
 
 ## Example: calculate the sum of all number values in a json object
 ```js
-import reduce from 'json-reduce'
+import {reduce} from 'json-reduce'
 
 const document = {
   first: 1,

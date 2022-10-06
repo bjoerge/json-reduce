@@ -1,4 +1,4 @@
-import reduce from './src/reduce'
+import {reduce} from './src/reduce'
 
 // -- count all number values
 const document = {

@@ -135,7 +135,7 @@ function reduceAny<T>(
   return reducePrimitive(acc, reducerFn, val, path)
 }
 
-export default function reduce<T, K>(
+export function reduce<T, K>(
   value: JSONValue,
   reducerFn: Reducer<T>,
   initial: T,

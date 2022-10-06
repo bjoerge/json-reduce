@@ -1,4 +1,4 @@
-import reduce, {SKIP} from '../src/reduce'
+import {reduce, SKIP} from '../src/reduce'
 
 test('skipping', () => {
   const doc = {

@@ -1,6 +1,6 @@
 {
   "name": "json-reduce",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "dist/reduce.js",
   "scripts": {
     "start": "node -r babel-register example.js",
